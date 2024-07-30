@@ -57,7 +57,7 @@ func SendTextRequest(token string, content string) error {
 		return fmt.Errorf("failed to read response body: %v", err)
 	}
 
-	if resp.StatusCode == 201 {
+	if resp.StatusCode == http.StatusOK {
 		var successResp SentContentSuccessResponse
 		if err := json.Unmarshal(body, &successResp); err != nil {
 			return fmt.Errorf("failed to unmarshal success response: %v", err)
