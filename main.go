@@ -1,7 +1,7 @@
 package main
 
 import (
-	"easychuanApi/tools"
+	"easychuanTools/tools"
 	"flag"
 	"fmt"
 	"log"
