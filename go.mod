@@ -1,3 +1,3 @@
-module easychuanApi
+module easychuanTools
 
 go 1.21.3
