@@ -10,3 +10,5 @@ easychuan.cn 的注册、登录、发送文本、显示文本的小工具
 
 3. 登录并显示文本：   
    运行命令 `./easychuanTools -u 邮箱 -p 密码 -g txt` （示例：`./easychuanTools -u 123@qqx.com -p 123123 -g txt`）
+# 免责声明：
+本工具仅供方便使用而编写，用户在使​​用过程中产生的一切后果自行承担。
